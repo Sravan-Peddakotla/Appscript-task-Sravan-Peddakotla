@@ -6,8 +6,8 @@ class ProductItem extends Component {
     render() {
         const {product, showFilter} = this.props
         const {image, title, category, price} = product
-        const modifiedTitle = title.substring(0, 20) + '...'
-        const stylesApply = showFilter ? 'product-item-with-filter' : 'product-item-without-filter'
+        const modifiedTitle = title.substring(0, 20) + '...';
+        const stylesApply = showFilter ? 'product-item-with-filter' : 'product-item-without-filter';
         return (
             <div className={stylesApply} >
                 <img className="image" src={image} alt={title} />
