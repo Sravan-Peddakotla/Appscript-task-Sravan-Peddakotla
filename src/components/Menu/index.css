@@ -1,0 +1,24 @@
+.main-div-menu {
+    overflow: auto;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 20px;
+}
+
+.left-space {
+    width: 30%;
+    float:left;
+    padding: 10px
+}
+
+.menu-item {
+    width: 10%;
+    float: left;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width : 620px ) {
+    .shop {
+        width: 100%;
+    }
+}

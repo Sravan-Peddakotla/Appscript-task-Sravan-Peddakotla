@@ -1,0 +1,43 @@
+.main-div {
+    overflow: auto;
+}
+
+.filters {
+    width: 15%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.products {
+    width: 80%;
+    float: left;
+    padding: 10px;
+}
+
+.loading-text {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.error-message {
+    text-align: center;
+}
+
+.products-length {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.product-header-space {
+    width: 70%;
+}
+
+.product-header-filter {
+    text-align: right;
+    margin-top: -20px
+}
+
+.show-hide-button {
+    margin-left: 20px
+}
